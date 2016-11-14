@@ -33,7 +33,7 @@ dts<-args[2]    # stores the selected data set (VH10, U2OS or IB10)
 fc_cutoff<-as.numeric(args[3]) # mean fold-change (FC) cutoff (>=1)
 p_cutoff<-as.numeric(args[4])  # adjusted P-value cutoff (0..1)
 n_perm<-1000    # number of permutations (default 1000)
-outfile<-file.path(dirname(dbfile), paste0(dts, '_rankprod.tab')) # fullpath of output file
+outfile<-file.path(dirname(dbfile), paste0(dts, '_rankprod_fc_', fc_cutoff, '_p_', p_cutoff, '.tab')) # fullpath of output file
 nohits<-'Nothing to write onto outfile.\n'
 
 # check user input

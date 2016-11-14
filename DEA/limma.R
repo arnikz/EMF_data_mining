@@ -33,7 +33,7 @@ dbfile<-args[1] # SQLite database file
 dts<-args[2]    # stores the selected data set (VH10, U2OS or IB10)
 fc_cutoff<-as.numeric(args[3]) # mean fold-change (FC) cutoff (>=1)
 p_cutoff<-as.numeric(args[4])  # adjusted P-value cutoff (0..1)
-outfile<-file.path(dirname(dbfile), paste0(dts, '_limma.tab'))
+outfile<-file.path(dirname(dbfile), paste0(dts, '_limma_fc_', fc_cutoff, '_p_', p_cutoff, '.tab'))
 nohits<-'Nothing to write onto outfile.\n'
 
 # check user input

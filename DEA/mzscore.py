@@ -102,7 +102,7 @@ else:
 
 if outfile is None:
    # set the default output filename
-   outfile = os.path.join(os.path.dirname(dbfile), '%s_%s_mzscore.tab' % (dts, stype))
+   outfile = os.path.join(os.path.dirname(dbfile), '%s_mzscore_%s_%.2f.tab' % (dts, stype, cutoff))
 
 if cutoff < 0:
    parser.error('the absolute score cutoff must be a positive value')
@@ -114,7 +114,7 @@ outfile = %s
 dataset = %s
 re-score = %s
 score type = %s
-score cutoff = %.4f
+score cutoff = %.2f
 """ % (dbfile, outfile, dts, new_tabs, stype, cutoff)
 
 # sqlite3 user-defined functions (UDFs)

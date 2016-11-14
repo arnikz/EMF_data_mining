@@ -13,14 +13,6 @@
 library(RSQLite, quietly = TRUE)
 library(fcros, quietly = TRUE)
 
-fcrosVersion<-packageVersion('fcros')
-
-# check the fcros version
-if (fcrosVersion != '1.2') {
-   cat('fcros version 1.2 required.\n')
-   q(save = 'no', status = 1)
-}
-
 scriptname<-basename(sub('.*=', '', commandArgs()[4])) # script name
 printUsage<-function() {
    cat('Usage:', scriptname, '[dbfile] [dataset={VH10,U2OS,IB10}] [FC cutoff] [P-value cutoff]\n')
@@ -38,7 +30,7 @@ dbfile<-args[1] # SQLite database file
 dts<-args[2]  # stores the selected data set (VH10, U2OS or IB10)
 fc_cutoff<-as.numeric(args[3]) # robust average or median fold-change (FC2) cutoff (>=1)
 p_cutoff<-as.numeric(args[4])  # P-value cutoff (0..1) N.B.: P-values obtaned by this method do not need to be adjusted!
-outfile<-file.path(dirname(dbfile), paste0(dts, '_fcros.tab')) # fullpath of output file
+outfile<-file.path(dirname(dbfile), paste0(dts, '_fcros_fc_', fc_cutoff, '_p_', p_cutoff, '.tab')) # fullpath of output file
 nohits<-'Nothing to write onto outfile.\n'
 
 # check user input

@@ -72,14 +72,14 @@ def main():
       parser.error('sigB cutoff (P-value) must be between 0 and 1')
 
    if outfile is None:
-      outfile = os.path.join(os.path.dirname(dbfile), '%s_fcsigB.tab' % dts) # fullpath of the outfile
+      outfile = os.path.join(os.path.dirname(dbfile), '%s_fcsigB_fc_%.2f_p_%.2f.tab' % (dts, fc_cutoff, sigB_cutoff)) # fullpath of the outfile
 
    print """
 dbfile = %s
 outfile = %s
 dataset = %s
-FC cutoff = %.4f
-P-value cutoff = %.4f
+FC cutoff = %.2f
+P-value cutoff = %.2f
    """ % (dbfile, outfile, dts, fc_cutoff, sigB_cutoff)
 
    # sqlite3 user-defined function (UDF)
