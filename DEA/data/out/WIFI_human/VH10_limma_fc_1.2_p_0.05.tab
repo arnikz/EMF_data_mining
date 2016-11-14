@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_H0L1	ratio_H1M0	ratio_H0M1	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_H0L1	log2ratio_H1M0	log2ratio_H0M1	log2ratio_L0M0	log2ratio_L1M1	logFC	CI.L	CI.R	AveExpr	t	P.Value	adj.P.Val
+4428	PNPO	0.7306	1.2781	0.7249	1.2924	0.9728	1.0005	-0.4528	0.354	-0.4641	0.3701	-0.0398	7e-04	-0.4101	-0.491	-0.3291	-0.0387	-11.1019	0	0.0471

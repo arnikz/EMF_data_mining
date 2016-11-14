@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	FC2	ri	p.value	f.value
+2038	Drosha	2.6422	1.5466	2.8175	2.023	0.9629	0.7509	1.4017	0.6291	1.4944	1.0165	-0.0545	-0.4133	2.3326	0.9949	0.0796	0.9602

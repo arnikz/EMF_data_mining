@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	pval_H1L0	pval_L1H0	pval_H1M0	pval_M1H0	pval_L0M0	pval_L1M1
+865	SPAG7	1.6107	1.3471	1.765	1.2342	1.1434	0.9389	0.6877	0.4299	0.8197	0.3036	0.1933	-0.091	0.0959	0.1447	0.0009	0.1772	0.4443	0.7071

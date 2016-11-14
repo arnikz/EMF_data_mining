@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	pval_H1L0	pval_L1H0	pval_H1M0	pval_M1H0	pval_L0M0	pval_L1M1
+3604	MBOAT7	0.6402	0.7247	0.7728	0.6386	1.1394	1.1706	-0.6434	-0.4645	-0.3718	-0.647	0.1883	0.2272	0.0012	0.0946	0.0043	0.0203	0.4166	0.3173

@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	pval_H1L0	pval_L1H0	pval_H1M0	pval_M1H0	pval_L0M0	pval_L1M1
+4703	AKAP8L	0.6857	0.5454	0.8195	0.5498	1.1879	0.8454	-0.5444	-0.8746	-0.2872	-0.863	0.2484	-0.2423	0.0354	0.0273	0.1674	0.0015	0.4205	0.4602

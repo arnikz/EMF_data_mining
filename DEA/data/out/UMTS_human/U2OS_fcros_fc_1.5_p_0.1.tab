@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	FC2	ri	p.value	f.value
+2740	TWISTNB	0.6685	0.3077	0.6628	0.4493	0.9944	0.6876	-0.581	-1.7004	-0.5934	-1.1542	-0.0081	-0.5404	1.7984	0.0036	0.0739	0.037

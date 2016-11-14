@@ -1,0 +1,2 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	FC2	ri	p.value	f.value
+2008	AMPH,BIN2	0.7642	0.6533	0.6784	0.6537	0.7733	0.9986	-0.388	-0.6142	-0.5598	-0.6133	-0.3709	-0.002	1.5014	0.0146	0.0792	0.0396

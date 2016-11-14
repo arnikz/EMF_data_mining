@@ -1,0 +1,3 @@
+grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	FC2	ri	p.value	f.value
+3520	LEO1	0.7906	0.5752	0.707	0.8256	0.9636	0.9379	-0.339	-0.7979	-0.5002	-0.2765	-0.0535	-0.0925	1.3355	0.0243	0.0845	0.0422
+4428	PNPO	0.7306	0.7824	0.7249	0.7738	0.9728	1.0005	-0.4528	-0.354	-0.4641	-0.37	-0.0398	7e-04	1.3294	0.0376	0.0934	0.0467
