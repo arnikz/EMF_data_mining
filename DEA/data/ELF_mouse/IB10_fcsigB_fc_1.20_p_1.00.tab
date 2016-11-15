@@ -1,2 +1,0 @@
-grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	pval_H1L0	pval_L1H0	pval_H1M0	pval_M1H0	pval_L0M0	pval_L1M1
-2586	Rhot1,Rhot2	1.3744	1.2079	1.2452	1.3533	0.8925	0.9004	0.4588	0.2725	0.3164	0.4365	-0.1641	-0.1514	0.3406	0.4532	0.4344	0.0699	0.7427	0.507

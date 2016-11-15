@@ -1,2 +1,0 @@
-grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	FC2	ri	p.value	f.value
-4242	Acbd6	0.7381	0.5263	0.7118	0.5515	0.9213	0.9759	-0.4381	-0.926	-0.4905	-0.8586	-0.1183	-0.0352	1.5832	0.0139	0.0815	0.0407

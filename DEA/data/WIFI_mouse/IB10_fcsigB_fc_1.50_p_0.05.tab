@@ -1,2 +1,0 @@
-grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	pval_H1L0	pval_L1H0	pval_H1M0	pval_M1H0	pval_L0M0	pval_L1M1
-2038	Drosha	2.6422	1.5466	2.8175	2.023	0.9629	0.7509	1.4017	0.6291	1.4944	1.0165	-0.0545	-0.4133	0.0	0.0455	0.0	0.0	0.7067	0.1388

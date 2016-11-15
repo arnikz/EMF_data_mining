@@ -1,2 +1,0 @@
-grp_id	genes	ratio_H1L0	ratio_L1H0	ratio_H1M0	ratio_M1H0	ratio_L0M0	ratio_L1M1	log2ratio_H1L0	log2ratio_L1H0	log2ratio_H1M0	log2ratio_M1H0	log2ratio_L0M0	log2ratio_L1M1	RP/Rsum	FC	pfp	P.value
-2818	Glmn	2.0038	1.3529	1.6153	1.1788	1.1727	1.0925	1.0027	0.4361	0.6918	0.2373	0.2298	0.1276	11.81	1.507	0.0195	5e-04
