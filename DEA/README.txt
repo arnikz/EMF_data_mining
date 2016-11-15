@@ -13,9 +13,8 @@ Auxiliary scripts used with the Perseus software (v1.3.0.4) and required for FC+
   pre_perseus_sigB.R
   post_perseus_sigB.R
 
-EMF exposure data on human (VH10 and U2OS) and mouse (IB10) cell lines available via
-i) PIQMIe proteomics server, http://piqmie.biotools.nl/download/<dataset>
-ii) git lfs https://github.com/arnikz/EMF_data_mining/dbs/<dataset>
+EMF exposure data on human (VH10 and U2OS) and mouse (IB10) cell lines are available  for
+download from the PIQMIe proteomics server, http://piqmie.biotools.nl/download/...
   ELF_human/ELF_human.sqlite
   ELF_mouse/ELF_mouse.sqlite
   UMTS_human/UMTS_human.sqlite
