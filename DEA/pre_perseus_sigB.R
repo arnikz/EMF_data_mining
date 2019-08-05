@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 #
 # This script is used to pre-process a MaxQuant 'proteinGroups.txt' file
 # to streamline the process of adding peak intensity-based significance B

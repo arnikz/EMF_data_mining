@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 #
 # This script takes an SQLite database obtained from the PIQMIe service and
 # performs differential analysis on normalized SILAC protein ratios using

@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/bin/env Rscript
 #
 # This script takes the original MaxQuant 'proteinGroups.txt' file and its
 # post-processed version with peak intensity-based significance B (sigB)
