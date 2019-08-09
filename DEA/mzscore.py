@@ -307,7 +307,7 @@ SELECT
       for e in exp_names:
          for r in ratio_types:
             i += 1
-            rr = r[:-2] + r[-2:][::-1] # add inverse ratio: {raw|norm}_ratio_HL changed to *_ratio_HL
+            rr = r[:-2] + r[-2:][::-1] # add inverse ratio (e.g., {raw|norm}_ratio_HL for *_ratio_LH)
             if i == n: comma = ''
             sql_create_view += "\tROUND(CAST(GROUP_CONCAT(CASE WHEN exp_name = '{exp}' AND ratio_type = '{ratio}' THEN z_score ELSE NULL END) AS NUMERIC), 4) AS '{exp}_z_score_{ratio}',\n".format(exp=e, ratio=r)
             sql_create_view += "\tROUND(CAST(GROUP_CONCAT(CASE WHEN exp_name = '{exp}' AND ratio_type = '{ratio}' THEN -1 * z_score ELSE NULL END) AS NUMERIC), 4) AS '{exp}_z_score_{iratio}',\n".format(exp=e, ratio=r, iratio=rr)
